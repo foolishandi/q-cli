@@ -1,0 +1,23 @@
+{
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": ["eslint:recommended", "airbnb", "plugin:prettier/recommended"],
+	"parser": "babel-eslint",
+	"plugins": ["jsx-a11y", "import"],
+	"overrides": [],
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module",
+		"ecmaFeatures": {
+			"jsx": true
+		}
+	},
+	"rules": {
+		"class-methods-use-this": 0,
+
+		"import/no-named-as-default": 0
+	}
+}
